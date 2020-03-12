@@ -39,7 +39,7 @@ public enum ItemLocationEnum {
     public String toString() {
         switch(this){
             case Unknown:
-                return "Unknown";
+                return GlobalModel.MainActivityContext.getString(R.string.Unknown);
             case Head:
                 return "Head";
             case Necklass:

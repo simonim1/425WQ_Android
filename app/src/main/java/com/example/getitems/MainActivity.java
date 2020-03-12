@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Context ActivityContext = this;
+
+        // Store away the Main Context
+        MainActivityContext = ActivityContext;
+
         final TextView text = (TextView) findViewById(R.id.text2);
 
         final Button button = (Button) findViewById(R.id.button2);
